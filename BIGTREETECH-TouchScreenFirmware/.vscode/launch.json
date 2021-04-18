@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/home/drift/Documents/firmware/BIGTREETECH-TouchScreenFirmware/.pio/build/BIGTREE_TFT50_V3_0/BIGTREE_TFT50_V3.0.26.x.elf",
+            "projectEnvName": "BIGTREE_TFT50_V3_0",
+            "toolchainBinDir": "/home/drift/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/drift/.platformio/platforms/ststm32@9.0.0/misc/svd/STM32F20x.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug (BIGTREE_TFT50_V3_0)"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/home/drift/Documents/firmware/BIGTREETECH-TouchScreenFirmware/.pio/build/BIGTREE_TFT50_V3_0/BIGTREE_TFT50_V3.0.26.x.elf",
+            "projectEnvName": "BIGTREE_TFT50_V3_0",
+            "toolchainBinDir": "/home/drift/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/drift/.platformio/platforms/ststm32@9.0.0/misc/svd/STM32F20x.svd"
+        }
+    ]
+}
