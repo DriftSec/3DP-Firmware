@@ -137,11 +137,11 @@
 #define MIXING_EXTRUDER 0  // Default: 0. For mixing_extruder set to 1 (This option turns off autodetection
                            // of the number of extruders)
 
-#define PREHEAT_LABELS   {"PLA", "PETG", "ABS", "WOOD", "TPU", "NYLON"}
-#define PREHEAT_HOTEND   {200,   240,    230,   170,    220,   250}
-#define PREHEAT_BED      {60,    70,     90,    50,     50,    90}
+#define PREHEAT_LABELS   {"PLA", "PETG", "ABS", "TPU", "NYLON", "PC" }
+#define PREHEAT_HOTEND   {215,   240,    230,    220,   270 , 300 }
+#define PREHEAT_BED      {60,    70,     90,     50,    90,   105 }
 
-#define HEAT_MAX_TEMP    {300,       300,       300,       300,       300,       300,       150,    60}
+#define HEAT_MAX_TEMP    {350,       350,       350,       350,       350,       350,       150,    60}
 #define HEAT_SIGN_ID     {"T0:",     "T1:",     "T2:",     "T3:",     "T4:",     "T5:",     "B:",   "C:"}
 #define HEAT_DISPLAY_ID  {"T0",      "T1",      "T2",      "T3",      "T4",      "T5",      "Bed",  "Chamber"}
 #define HEAT_CMD         {"M104 T0", "M104 T1", "M104 T2", "M104 T3", "M104 T4", "M104 T5", "M140", "M141"};
@@ -329,7 +329,7 @@
 #define SHOW_BTT_BOOTSCREEN
 
 // Bootscreen logo time in ms
-#define BTT_BOOTSCREEN_TIME 3000
+#define BTT_BOOTSCREEN_TIME 1000
 
 // Enable alternative Move Menu Buttons Layout matching the direction of actual printer axis
 // Update the icons from alternate icon folder.
@@ -356,7 +356,7 @@
  *          3: LED_ORANGE,  4: LED_YELLOW,  5: LED_GREEN,
  *          6: LED_BLUE,    7: LED_INDIGO,  8: LED_VIOLET
 */
-#define STARTUP_KNOB_LED_COLOR 1  // Default: 1
+#define STARTUP_KNOB_LED_COLOR 5 // Default: 1
 
 // Keep the LED state in Marlin Mode
 #define KEEP_KNOB_LED_COLOR_MARLIN_MODE
