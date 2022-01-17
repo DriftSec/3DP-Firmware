@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "BIGTREETECH-TouchScreenFirmware",
+			"path": "BIGTREETECH-TouchScreenFirmware"
+		},
+		{
+			"name": "Marlin-2.0.x",
+			"path": "Marlin-2.0.x"
+		}
+	],
+	"settings": {}
+}
